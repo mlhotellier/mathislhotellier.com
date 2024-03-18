@@ -1,0 +1,287 @@
+/*
+ *  Draco HTML Template by @flamekaizar
+ *  License: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+ */
+h1, h2, h3, h4, h5, h6 {
+  /* font-family: "Playfair Display SC", serif; */
+  font-family: "Lato", Arial, sans-serif;
+  color: #eeeeee; }
+
+a, p, li {
+  font-family: "Lato", Arial, sans-serif;
+  color: #eeeeee;
+  font-size: 1em;
+  line-height: 1.75em; }
+
+a:hover {
+  text-decoration: none !important;
+  color: #333333 !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
+
+.container {
+  margin: auto;
+  max-width: 662px;
+  padding: 0 20px; }
+
+@media only screen and (max-width: 767px) {
+  .intro img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .navbar ul {      
+  list-style: none;
+  margin: 0;
+}
+  footer {
+    text-align: center; } }
+.typed-cursor {
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; }
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-ms-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.main-nav {
+  padding-top: 23px; }
+  .main-nav nav ul li a {
+    color: #a7a7a7; }
+  .main-nav nav ul li.active a {
+    color: darkorchid; }
+  .main-nav .logo {
+    font-weight: 600;
+    font-size: 115%; }
+
+.section.second {
+  margin-bottom: 90px; }
+.section .container {
+  position: relative; }
+  .section .container h1 {
+    margin-bottom: 18px;
+    position: relative; }
+    .section .container:after {
+      position: absolute;
+      content: url(../img/separator.png);
+      left: 20px; }
+
+.intro {
+  padding: 95px 0px 70px 0px;
+  overflow-x: hidden; }
+  .intro img {
+    width: 81px;
+    height: 81px;
+    border-radius: 99px; }
+  .intro .wrap {
+    margin: 30px 0px; }
+  .intro h1:before {
+    position: absolute;
+    left: -220px;
+    top: -150px;
+    font-size: 270px;
+    z-index: -1;
+    color: #4c5213; }
+  .intro h1 span {
+    font-size: 47px; }
+  .intro h1 .span {
+    font-weight:lighter;
+    color:#c8c8c8d4;
+    font-size:100%; }
+  .intro p span { 
+    color: darkorchid;  }
+
+.work .work-list {
+  margin-left: 0px; }
+  .work .work-list li {
+    list-style: none;
+    font-size: 0.9375em; }
+    .work .work-list li a {
+      padding-bottom: 5px;
+      font-size: 1.1875em;
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 1px solid #b3b3b3; }
+      .work .work-list li a:hover {
+        border-bottom: 1px solid #333333; }
+        .work .tab0 {
+          font-size:17px;}
+        .work .tab0 span {
+          color:darkorchid; }
+        .work .tab0 .company {
+          color:rgb(209, 34, 206);
+          font-weight: 700; }
+        .work .tab0 .parenthese {
+          color:rgb(225, 207, 49);
+          font-weight: 700; }
+        .work .tab1 span {
+          color:darkorchid; }
+        .work .tab1 {
+          color:gold; 
+          font-weight: 600;
+          margin-left: 15px;}
+        .work .tab2 {
+          margin-left: 30px;}
+
+.award .award-list {
+  margin-left: 0px; }
+  .award .tab1 {
+    margin-left:15px; }
+  .award .tab2 {
+    margin-left: 30px; 
+    color: #97d43c}
+    .award .tab2 span {
+      margin-right: 8px;
+      color: gray }
+      .award .tab2 .except {
+        margin-right: 0px;
+        color: #97d43c}
+  #title {
+    font-size: 115%;
+    font-weight: bold;
+  }
+
+.skills .skill-list {
+  margin-left: 0px; }
+  .skills .function:hover{
+    text-decoration: 1px underline;
+    text-decoration-color: gray;
+  }
+  .skills .tab1 {
+    margin-left: 15px;
+  }
+  .skills .tab2 {
+    margin-left: 30px;
+  }
+  .skills .tab3 {
+    margin-left: 45px;
+  }
+  .skills button {
+    background-color: transparent;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    color:white;
+    padding: 5px 12px;
+  }
+  .skills button:hover {
+    background-color: rgba(116, 116, 116, 0.569);
+    border: 2px solid rgb(116, 116, 116); }
+    .skills button:hover .darkblue{
+      color:rgb(139, 152, 250); }
+  .skills .purple {
+    color: rgb(166, 70, 213); }
+  .skills .pink { 
+    color:plum;}
+  .skills .orange {
+    color: darkorange; }
+  .skills .yellow {
+    color: gold; }
+  .skills .darkgreen {
+    color:darkcyan }
+  .skills .green {
+    color: yellowgreen; }
+  .skills .grey {
+    color: gray; }
+  .skills .darkblue {
+    color:rgb(88, 100, 186);}
+  .skills .blue {
+    color:rgb(0, 140, 255); }
+  .skills .red {
+    color:rgb(219, 47, 47);}
+
+footer {
+  padding: 50px 0px 0px 0px; }
+  footer .social li {
+    display: inline;
+    margin-left: 20px; }
+    footer .social li a {
+      font-size: 1.25em;
+      color: #999999; }
+
+#typed {
+  color:greenyellow;
+  font-size: 55px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+@media (min-width: 1120px) {
+  .navbar ul {
+    display: grid;
+  }
+  .main-nav{
+    position: fixed;
+    height:100%
+  }
+}
+
+
+/* CSS Modal */
+.modal {
+  display: none; /* Cacher la modal par défaut */
+  position: fixed; /* Position fixe */
+  z-index: 3; /* Place la modal au-dessus de tout le reste */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.55); /* Fond semi-transparent */
+}
+
+.modal-content {
+  background-color: #646464;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.modal-content .d-flex {
+  display:flex;
+}
+
+.close {
+  color: #d4c696;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
