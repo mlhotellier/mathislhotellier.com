@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>.mlh</title>
+    <title>.mlh website</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="site de mathis l'hotellier.">
+    <meta name="author" content="mlhotellier">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/kube.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/custom.css" />
 	<link rel="icon" type="image/x-icon" href="img/favicon.png">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 	<style>
@@ -54,8 +55,12 @@
 					Currently in web developer training at <span class="bold ">@OpenClassrooms</span>.<br>
 					I want to become a certified web developer and quickly integrate a dynamic and innovative team in order to contribute to new projects.
 				</p>
-				<div>
-					<p>agility - relational ease - versatility - pugnacity - rigor</p>
+				<div class="quality">
+					<span>agility</span>
+					<span>relational ease</span>
+					<span>versatility</span>
+					<span>pugnacity</span>
+					<span>rigor</span>
 				</div>
 			</div>
 		</div>
@@ -127,7 +132,7 @@
 		<div class="container">
 			<h1>skills.js</h1>
 			<ul class="skill-list list-flat">
-				<li><span class="function" id="button"><span class="purple">function</span> <span class="orange">afficherMesSkills</span><span class="yellow">( )</span><span class="yellow" style="margin-left:8px">{</span></span></li>
+				<li><span class="function" id="button"><span class="purple">function</span> <span class="orange">showMySkills</span><span class="yellow">( )</span><span class="yellow" style="margin-left:8px">{</span></span></li>
 					<li class="tab1"><span class="purple">let</span> <span class="darkblue">mySkills</span> = <span class="pink">[ ]</span>;</li>
 					<li class="tab1"><span class="purple">while</span> <span class="pink">(</span><span class="darkgreen">true</span><span class="pink">)</span> <span class="pink" style="margin-left:8px">{</span></li>
 						<li class="tab2"><span class="purple">let</span> <span class="darkblue">skill</span> = <span class="red">window</span>.<span class="orange">prompt</span><span class="blue">(</span><span class="green">'What skills do you have ? (Press Cancel to stop)'</span><span class="blue">)</span>;</li>
@@ -136,28 +141,41 @@
 						<li class="tab2"><span class="pink">}</span></li>
 						<li class="tab2"><span class="darkblue">mySkills</span>.<span class="orange">push</span><span class="blue">(</span><span class="darkblue">skill</span><span class="blue">)</span>;</li>
 					<li class="tab1"><span class="pink">}</span></li>
-					<li class="tab1"><span class="grey">// Click for results</span></li>
+					<li class="tab1"><span class="grey">// Click for seeing result</span></li>
 					<li class="tab1"><button id="myButton"><span class="red">console</span>.<span class="orange">log</span><span class="pink">(</span><span class="green">'Show my skills :'</span>, <span class="darkblue">mySkills</span><span class="pink">)</span>;</button></li>
 				<li><span class="pink">}</span></li>
 			</ul>
-
+			
+			<!-- Modal -->
 			<div id="myModal" class="modal">
 				<div class="modal-content">
 					<span class="close">&times;</span>
-					<p> <span class="bold blue">></span> results</p>
+					<p class="mb-10"><span class="bold blue">></span> results</p>
 					<div class="d-flex">
 						<div class="unit-50">
-							<p>development</p>
+							<p><i class='bx bx-code bx-tada' ></i> Web Development:</p>
 							<ul>
-								<li>Front: HTML, CSS, JavaScript, React</li>
-								<li>Back: NodeJS, Express, MongoDB</li>
-								<li>Mobile: React Native</li>
-								<li>CMS: Prestashop, Wordpress, Drupal</li>
+								<li><span>Front:</span> HTML, CSS, JavaScript;</li>
+								<li><span>Frameworks:</span> ReactJS, GatsbyJS;</li>
+								<li><span>CMS:</span> Prestashop, Wordpress, Drupal;</li>
+								<li><span>Back:</span> NodeJS, MongoDB;</li>
+								<li><span>Mobile:</span> React Native;</li>
 							</ul>
 						</div>
 						<div class="unit-50">
-							<p>Languages: français, anglais, espagnol</p>
-							<p>Soft skills: Adobe CC, project management,</p>
+							<p><i class='bx bx-git-branch bx-tada' ></i> Soft skills: </p>
+								<ul>
+									<li>Adobe CC, Project Management, Git, Site Optimization;</li> 
+								</ul>
+								
+							<p><i class='bx bxl-opera bx-tada' ></i> Sofwares: </p>
+								<ul>
+									<li>VS Code, MacPass, Opera, Slack, Trello;</li>
+								</ul>
+							<p><i class='bx bxs-quote-right bx-tada' ></i> Languages: </p>
+								<ul>
+									<li>French, English, Spanish;</li>
+								</ul>
 						</div>
 					</div>
 				</div>
@@ -170,15 +188,46 @@
 	<!-- About -->
 	<div class="about section second" id="about">
 		<div class="container">
-			<h1>about.txt</h1>
-			
+			<h1>about-me.txt</h1>
+			<p>
+				I was born in Rennes, I studied and lived there until 2021.
+				After that i've lived in Argentine for 6 month and discovered a beautiful country.
+
+			</p>
+			<ul>
+				<li>Sports : football, squash, padel, rugby, hiking and others</li>
+				<li>Travels: Argentina, Peru, Netherland, Morocco, Italia, Guadeloupe, Martinique</li>
+				<li>Video game : Hogwarts Legacy, Detroit: Become Human, The Last Of Us, Fortnite, Mario Kart, GTA ...</li>
+				<li>Pets : #catslovers (i've two cute cats)</li>
+				<li>Books: Cherub, Henderson's Boys, Harry Potter </li>
+			</ul>
+
+			<div class="gabarit">
+				<div class="box">
+				  <img src="img/peru.jpg">
+				  <span>Macchu Pichu</span>
+				</div>
+				<div class="box">
+				  <img src="img/cats.jpg">
+				  <span>Cats</span>
+				</div>
+				<div class="box">
+				  <img src="img/argentina.jpg">
+				  <span>Fitz Roy</span>
+				</div>
+			  </div>
+			<p>More photos ? </p>
 			<span></span>
 		</div>
 	</div>
 
 
+
+
 	<footer>
 		<div class="container">
+			<p style="width:100%;text-align:center;margin-bottom:10px">/*** THANKS FOR READING ***/<br>
+				/* CONTACT ME FOR MORE INFORMATION */</p>
 			<div class="units-row">
 			    <div class="unit-50">
 			    	<p>© mlhotellier - 2024</p>
