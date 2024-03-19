@@ -158,6 +158,13 @@ a:hover {
 
 .work .work-list {
   margin-left: 0px; }
+  .work .grey {
+    color: gray; }
+    .work .grey a {
+      color: gray;
+      text-decoration: none; }
+    .work a:hover {
+      color: rgb(88, 100, 186) !important; }
   .work .work-list li {
     list-style: none;
     font-size: 0.9375em; }
@@ -340,7 +347,7 @@ footer {
 .gabarit {
   display: flex;
   width: 100%;
-  padding: 4% 2%;
+  padding: 4% 0;
   box-sizing: border-box;
   height: 28vw; }
 @media  (max-width:901px) {
