@@ -80,22 +80,30 @@ a:hover {
   padding-top: 23px; }
   .main-nav nav ul li a {
     color: #a7a7a7; }
-  .main-nav nav ul li.active a {
-    color: darkorchid; }
   .main-nav .logo {
     font-weight: 600;
-    font-size: 115%; }
+    font-size: 121%; }
+  .main-nav .color-changing a {
+    animation: changeColor 5s infinite;}
+    @keyframes changeColor {
+      0% { color: #9b5de5; }
+      25% { color: #f15bb5; }
+      50% { color: #fee440; }
+      75% { color: #00f5d4; } 
+      100% { color:#0080c9; }  }
+  .main-nav .color-changing a:hover {
+    color: #9b5de5 !important;}
 
-.section.second {
+.section.second:not(.about) {
   margin-bottom: 90px; }
 .section .container {
   position: relative; }
   .section .container h1 {
     margin-bottom: 18px;
     position: relative; }
-    .section .container:after {
+    .section:not(.about) .container:after {
       position: absolute;
-      content: url(../img/separator.png);
+      content: url(../img/divider.png);
       left: 20px; }
 
 .intro {
@@ -125,7 +133,13 @@ a:hover {
   .intro .quality span {
     padding:4px 8px;
     border-radius: 4px;
+    font-weight: 500;
     margin: 3px 2px; }
+  @media (max-width:482px){
+    .intro .quality span {
+      display:inline-block;
+    }
+  }
   .intro .quality span:nth-child(1){
     background-color: #ffe5d9;
   }
@@ -240,6 +254,18 @@ a:hover {
   .skills .red {
     color:rgb(219, 47, 47);}
 
+.quote {
+  background: url(../img/zidane.jpg); 
+  background-repeat:no-repeat; 
+  background-size:cover;
+  padding: 30px 0px;
+  margin-top: 80px; }
+  .quote h1 {
+    margin: 100px 0px;
+    padding: 40px 20px;
+    border: 5px solid goldenrod;
+    color: goldenrod; }
+   
 footer {
   padding: 50px 0px 0px 0px; }
   footer .social li {
@@ -316,34 +342,27 @@ footer {
   width: 100%;
   padding: 4% 2%;
   box-sizing: border-box;
-  height: 28vw;
+  height: 28vw; }
+@media  (max-width:901px) {
+  .gabarit{
+    display: none;
+  }
 }
-
 .box {
   flex: 1;
   overflow: hidden;
   transition: .5s;
   margin: 0 2%;
-  line-height: 0;
-}
-
+  line-height: 0;}
 .box > img {
   width: 150%;
   height: calc(100% - 10vh);
   object-fit: cover; 
-  transition: .5s;
-}
+  transition: .5s;}
 
-.box > span {
-  font-size: 1.8vw;
-  display: block;
-  text-align: center;
-  height: 10vh;
-  line-height: 2.6;
-  color:#eeeeee;
-}
+.box:hover { 
+  flex: 1 1 60%; }
 
-.box:hover { flex: 1 1 50%; }
 .box:hover > img {
   width: 100%;
   height: 100%;
