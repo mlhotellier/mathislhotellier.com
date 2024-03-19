@@ -12,3 +12,10 @@ $(function() {
     }
   });
 });
+
+
+function newTyped(){}$(function(){$("#typed").typed({
+  // Change to edit type effect
+  strings: ["Hello,", "Bonjour,", "Hola,", "こんにちは,", "你好,"],
+
+  typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});

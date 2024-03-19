@@ -7,19 +7,34 @@
     <meta name="description" content="Discover Mathis L'HÔTELLIER’s professional background, skills and achievements through their online CV. Mathis specializes in design and web development.">
     <meta name="author" content="mlhotellier">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/kube.css" />
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <!-- CSS -->
+	<link rel="stylesheet" href="css/kube.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/custom.css" />
-	<link rel="icon" type="image/x-icon" href="img/favicon.png">
+	<!-- Fonts -->
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-	<style>
-		.intro h1:before {
-			/* Edit this with your name or anything else */
-			content: '.mlh';
-		}
-	</style>
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js" defer></script>
+	<script src="js/modal.js" defer></script>
+	<script src="js/skills.js" defer></script>
+	<script src="js/goToTop.js" defer></script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HTTZFL5D45"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-HTTZFL5D45');
+	</script>
+	
 </head>
 <body>
 	<!-- Navigation -->
@@ -196,6 +211,7 @@
 				After that i've lived in Argentina for 6 month and discovered a beautiful country.
 			</p>
 			<p>I have always be attracted by new technologies and www. Today, i want to contribute my knowledge and skills in <strong>web development</strong> in order to carry out beautiful projects.</p>
+			<h5>- Personal interest</h5>
 			<ul>
 				<li>Sports : football, squash, padel, rugby, hiking and others.</li>
 				<li>Travels: Argentina, Peru, Netherland, Morocco, Italia, Guadeloupe, Martinique, ...</li>
@@ -244,18 +260,7 @@
 		</div>
 	</footer>
 
-	<!-- Javascript -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/typed.min.js"></script>
-    <script src="js/site.js"></script>
-	<script src="js/modal.js"></script>
-	<script src="js/skills.js"></script>
-    <script>
-		function newTyped(){}$(function(){$("#typed").typed({
-		// Change to edit type effect
-		strings: ["Hello,", "Bonjour,", "Hola,", "こんにちは,", "你好,"],
-
-		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
-    </script>
+	<!-- Button go to top -->
+	<button onclick="topFunction()" id="myBtn" title="Retour en haut"><i class='bx bx-up-arrow-alt'></i></button>
 </body>
 </html>

@@ -27,18 +27,43 @@ a:hover {
   max-width: 662px;
   padding: 0 20px; }
 
-@media only screen and (max-width: 767px) {
+  .navbar li:not(:first-child) {
+    margin-top:27px;
+  } 
+
+@media (max-width: 767px) {
+  .intro {
+    padding: 25px 0 70px 0 !important;
+  }
+  .intro h1:before {
+		font-size: 250px !important;
+    left:-10vw!important;
+  }
   .intro img {
     display: block;
     margin-left: auto;
-    margin-right: auto; }
-
+    margin-right: auto;
+    width:150px !important;
+    height:150px !important;
+  }
   .navbar ul {      
   list-style: none;
   margin: 0;
-}
+  }
   footer {
-    text-align: center; } }
+    text-align: center; 
+  }
+  footer .social li:first-child{
+    margin:0;
+  }
+  .navbar ul li:not(:first-child) {
+    display: none;
+  } 
+  .navbar ul li:first-child {
+    font-size: 42px;
+  } 
+}
+
 .typed-cursor {
   opacity: 1;
   font-weight: 100;
@@ -82,7 +107,7 @@ a:hover {
     color: #a7a7a7; }
   .main-nav .logo {
     font-weight: 600;
-    font-size: 121%; }
+    font-size: 42px; }
   .main-nav .color-changing a {
     animation: changeColor 5s infinite;}
     @keyframes changeColor {
@@ -116,8 +141,9 @@ a:hover {
   .intro .wrap {
     margin: 30px 0px; }
   .intro h1:before {
+    content: '.mlh';/* Edit this with your name or anything else */
     position: absolute;
-    left: -220px;
+    left: -205px;
     top: -150px;
     font-size: 270px;
     z-index: -1;
@@ -134,6 +160,7 @@ a:hover {
     padding:4px 8px;
     border-radius: 4px;
     font-weight: 500;
+    color :#333333;
     margin: 3px 2px; }
   @media (max-width:482px){
     .intro .quality span {
@@ -262,7 +289,7 @@ a:hover {
     color:rgb(219, 47, 47);}
 
 .quote {
-  background: url(../img/zidane.jpg); 
+  background: url(../img/zidane-ConvertImage.jpg); 
   background-repeat:no-repeat; 
   background-size:cover;
   padding: 30px 0px;
@@ -271,7 +298,11 @@ a:hover {
     margin: 100px 0px;
     padding: 40px 20px;
     border: 5px solid goldenrod;
+    border-radius: 4px;
     color: goldenrod; }
+    .quote h1:hover {
+      background-color: rgba(218, 165, 32, 0.2);
+      color:#222222;  }
    
 footer {
   padding: 50px 0px 0px 0px; }
@@ -281,6 +312,8 @@ footer {
     footer .social li a {
       font-size: 1.25em;
       color: #999999; }
+  footer .units-row{
+    margin-bottom: 0 !important; }
 
 #typed {
   color:greenyellow;
@@ -295,6 +328,9 @@ footer {
   .main-nav{
     position: fixed;
     height:100%
+  }
+  .navbar li:not(:first-child){
+    margin:0!important;
   }
 }
 
@@ -333,8 +369,7 @@ footer {
   color: #d4c696;
   float: right;
   font-size: 28px;
-  font-weight: bold;
-}
+  font-weight: bold;}
 
 .close:hover,
 .close:focus {
@@ -366,12 +401,31 @@ footer {
   height: calc(100% - 10vh);
   object-fit: cover; 
   transition: .5s;}
-
 .box:hover { 
   flex: 1 1 60%; }
 
 .box:hover > img {
   width: 100%;
-  height: 100%;
-}
+  height: 100%;}
  
+
+
+/* Style du bouton */
+#myBtn {
+  display: none; /* Masquer le bouton par défaut */
+  position: fixed; /* Position fixe pour le bouton */
+  bottom: 20px; /* Position du bouton par rapport au bas de la page */
+  right: 30px; /* Position du bouton par rapport à la droite de la page */
+  z-index: 99; /* Place le bouton au-dessus des autres éléments de la page */
+  font-size: 24px; /* Taille du texte */
+  border: none; /* Supprime les bordures */
+  outline: none; /* Supprime le focus */
+  cursor: pointer; /* Curseur de la souris */
+  background-color: white;
+  padding: 5px 4px 0px 4px;
+  border-radius: 18%;
+  animation: changeColor 5s infinite;
+  transition: .2s ease-in-out;
+  box-shadow: -1px -1px 7px rgba(255, 255, 255, .7);}
+  #myBtn:hover{
+    color:#222222!important;}
