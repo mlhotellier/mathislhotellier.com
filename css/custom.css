@@ -1,7 +1,7 @@
 /*
- *  Draco HTML Template by @flamekaizar
  *  License: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
  */
+
 h1, h2, h3, h4, h5, h6 {
   /* font-family: "Playfair Display SC", serif; */
   font-family: "Lato", Arial, sans-serif;
@@ -429,3 +429,5 @@ footer {
   box-shadow: -1px -1px 7px rgba(255, 255, 255, .7);}
   #myBtn:hover{
     color:#222222!important;}
+
+    
