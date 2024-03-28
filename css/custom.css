@@ -246,6 +246,13 @@ a:hover {
     text-decoration: 1px underline;
     text-decoration-color: gray;
   }
+  .skills .grey {
+    color: gray; }
+    .skills .grey a {
+      color: gray;
+      text-decoration: none; }
+    .skills a:hover {
+      color: rgb(88, 100, 186) !important; }
   .skills .tab1 {
     margin-left: 15px;
   }
