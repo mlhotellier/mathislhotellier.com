@@ -31,6 +31,31 @@ a:hover {
     margin-top:27px;
   } 
 
+  .projects .cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+  }
+  .projects .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  .projects .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .projects .card__content {
+    padding: 2px 16px;
+  }
+  .projects .grey {
+    color: gray; }
+    .projects .grey a {
+      color: gray;
+      text-decoration: none; }
+    .projects a:hover {
+      color: rgb(88, 100, 186) !important; }
+
 @media (max-width: 767px) {
   .intro {
     padding: 25px 0 70px 0 !important;
@@ -62,6 +87,9 @@ a:hover {
   .navbar ul li:first-child {
     font-size: 42px;
   } 
+  .projects .cards {
+    flex-direction: column;
+  }
 }
 
 .typed-cursor {
@@ -155,7 +183,7 @@ a:hover {
     color:#c8c8c8d4;
     font-size:100%; }
   .intro p span { 
-    color: darkorchid;  }
+    color: #D596FF;  }
   .intro .quality span {
     padding:4px 8px;
     border-radius: 4px;
@@ -177,11 +205,13 @@ a:hover {
     background-color: #e7c6ff;
   }
   .intro .quality span:nth-child(4){
-    background-color: #f08080;
-  }
-  .intro .quality span:nth-child(5){
     background-color: #b9fbc0;
   }
+  .intro .quality span:nth-child(5){
+    background-color: #E9FF6A;
+  }
+
+
 
 .work .work-list {
   margin-left: 0px; }
@@ -235,17 +265,13 @@ a:hover {
       .award .tab2 .except {
         margin-right: 0px;
         color: #97d43c}
-  #title {
+  #title1, #title2, #title3, #title4 {
     font-size: 115%;
     font-weight: bold;
   }
 
 .skills .skill-list {
   margin-left: 0px; }
-  .skills .function:hover{
-    text-decoration: 1px underline;
-    text-decoration-color: gray;
-  }
   .skills .grey {
     color: gray; }
     .skills .grey a {
@@ -295,21 +321,6 @@ a:hover {
   .skills .red {
     color:rgb(219, 47, 47);}
 
-.quote {
-  background: url(../img/zidane.jpg); 
-  background-repeat:no-repeat; 
-  background-size:cover;
-  padding: 30px 0px;
-  margin-top: 80px; }
-  .quote h1 {
-    margin: 100px 0px;
-    padding: 40px 20px;
-    border: 5px solid goldenrod;
-    border-radius: 4px;
-    color: goldenrod; }
-    .quote h1:hover {
-      background-color: rgba(218, 165, 32, 0.2);
-      color:#222222;  }
    
 footer {
   padding: 50px 0px 0px 0px; }
@@ -317,8 +328,14 @@ footer {
     display: inline;
     margin-left: 20px; }
     footer .social li a {
-      font-size: 1.25em;
-      color: #999999; }
+      font-size: 0.95em;
+      color: #eee;
+      text-decoration: none;}
+      footer .social li a i {
+        font-size: 1.25em;
+        color: #eee;
+        margin-right: 5px;
+      }
   footer .units-row{
     margin-bottom: 0 !important; }
 

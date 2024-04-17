@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>.mlh homepage</title>
+	<meta name="robots" content="index">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://www.mathislhotellier.com">
     <meta name="description" content="Discover Mathis L'HÔTELLIER’s professional background, skills and achievements through their online CV. Mathis specializes in design and web development.">
-    <meta name="author" content="mlhotellier">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicon -->
 	<link rel="icon" type="image/x-icon" href="img/favicon.png">
     <!-- CSS -->
-	<link rel="stylesheet" href="css/kube.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/custom.css" />
+	<link rel="stylesheet" href="css/kube.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
 	<!-- Fonts -->
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
@@ -23,7 +24,6 @@
     <script src="js/kube.min.js"></script>
     <script src="js/site.js" defer></script>
 	<script src="js/modal.js" defer></script>
-	<script src="js/skills.js" defer></script>
 	<script src="js/goToTop.js" defer></script>
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HTTZFL5D45"></script>
@@ -34,34 +34,33 @@
 
 		gtag('config', 'G-HTTZFL5D45');
 	</script>
-	
 </head>
 <body>
 	<!-- Navigation -->
-	<div class="main-nav">
+	<header class="main-nav">
 		<div class="container">
-			<header class="group top-nav">
+			<div class="group top-nav">
 			    <nav id="navbar-1" class="navbar item-nav">
 				    <ul>
 				        <li class="active logo color-changing"><a href="#intro">.mlh</a></li>
+						<li><a href="#projects">projects</a></li>
 				        <li><a href="#experiences">experiences</a></li>
 				        <li><a href="#achievements">formations</a></li>
 				        <li><a href="#skills">skills</a></li>
-				        <li><a href="#about">about</a></li>
-
+				        <li><a href="#about">about me</a></li>
 				    </ul>
 				</nav>
-			</header>
+			</div>
 		</div>
-	</div>
+	</header>
 
 	<!-- Introduction -->
-	<div class="intro section" id="intro">
+	<section class="intro section" id="intro">
 		<div class="container">
 			<span id="typed"></span>
 			<div class="units-row units-split wrap">
 				<div class="unit-20">
-					<img src="img/ava.jpg" alt="photo ml">
+					<img src="img/ava.jpg" alt="photo of mathis">
 				</div>
 				<div class="unit-80">
 					<h1><span>I'm Mathis</span><br>L'HÔTELLIER <span class="span">| 27 yo</span></h1>
@@ -79,12 +78,36 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
+
+	<section id="projects" class="projects section second">
+		<div class="container">
+			<h2>projects.pdf</h2>
+			<p>Stay connected! Soon, I'll unveil my projects showcasing my development skills. Get ready!</p>
+			<div class="cards">
+				<div class="card">
+					<img src="img1.jpg" alt="Image 1" style="width:100%">
+					<div class="card__content">
+					  <h4><b>Card 1</b></h4>
+					  <p>Description de la carte 1.</p>
+					</div>
+				  </div>
+				  <div class="card">
+					<img src="img2.jpg" alt="Image 2" style="width:100%">
+					<div class="card__content">
+					  <h4><b>Card 2</b></h4>
+					  <p>Description de la carte 2.</p>
+					</div>
+				  </div>
+			</div>
+			<p class="grey">/* See my projects on <a href="https://github.com/mlhotellier" target="_blank">GitHub</a> */</p>
+		</div>
+	</section>
 
 	<!-- Work Experience -->
-	<div class="work section second" id="experiences">
+	<section class="work section second" id="experiences">
 		<div class="container">
-			<h1>work-experiences.css</h1>
+			<h2>work-experiences.css</h2>
 			<ul class="work-list">
 				<li class="tab0"><span class="company">@company</span> <span class="parenthese">(</span>SAS_SEEKREET<span class="parenthese">)</span> <span>&#123;</span></li>
 				<li class="tab1">.chef-de-produit-web-mobile <span>&#123;</span></li>
@@ -105,35 +128,35 @@
 			</ul>
 			<p class="grey">/* More information on <a href="https://www.linkedin.com/in/mathis-l-hôtellier/" target="_blank">my linkedin</a> */</p>
 		</div>
-	</div>
+	</section>
 
 	<!-- Formations -->
-	<div class="award section second" id="achievements">
+	<section class="award section second" id="achievements">
 		<div class="container">
-			<h1>formations.json</h1>
+			<h2>formations.json</h2>
 			<ul class="award-list list-flat">
 				<li>[</li>
 				<li class="tab1">{</li>
-					<li class="tab2" id="title"><span>"title":</span>"Web developer"</li>
+					<li class="tab2" id="title1"><span>"title":</span>"Web developer"</li>
 					<li class="tab2"><span>"state":</span>"in progress"</li>
 					<li class="tab2"><span>"school":</span>"OpenClassrooms",</li>
 					<li class="tab2"><span>"date":</span>"2024/03 - 2024/10",</li>
 					<li class="tab2"><span>"location":</span>"online"</li>
 				<li class="tab1">},</li>
 				<li class="tab1">{</li>
-					<li class="tab2" id="title"><span>"title":</span>"Google Project Management Certificate"</li>
+					<li class="tab2" id="title2"><span>"title":</span>"Google Project Management Certificate"</li>
 					<li class="tab2"><span>"school":</span>"Coursera",</li>
 					<li class="tab2"><span>"date":</span>"2024/01 - 2024/02",</li>
 					<li class="tab2"><span>"location":</span>"online,</li>
 				<li class="tab1">},</li>
 				<li class="tab1">{</li>
-					<li class="tab2" id="title"><span>"title":</span>"Digital Strategy Expert - Art Direction"</li>
+					<li class="tab2" id="title3"><span>"title":</span>"Digital Strategy Expert - Art Direction"</li>
 					<li class="tab2"><span>"school":</span>"Digital Campus Rennes",</li>
 					<li class="tab2"><span>"date":</span>"2018/09 - 2021/07",</li>
 					<li class="tab2"><span>"location":</span>"Rennes, 35000"</li>
 				<li class="tab1">},</li>
 				<li class="tab1">{</li>
-					<li class="tab2" id="title"><span>"title":</span>"STAPS Bachelor's Degree - Sports Management"</li>
+					<li class="tab2" id="title4"><span>"title":</span>"STAPS Bachelor's Degree - Sports Management"</li>
 					<li class="tab2"><span>"school":</span>"Université Rennes 2",</li>
 					<li class="tab2"><span>"date":</span>"2016/09 - 2018/05",</li>
 					<li class="tab2"><span>"location":</span>"Rennes, 35000"</li>
@@ -141,23 +164,14 @@
 				<li>]</li>
 			</ul>
 		</div>
-	</div>
+	</section>
 
 	<!-- Skills -->
-	<div class="skills section second" id="skills">
+	<section class="skills section second" id="skills">
 		<div class="container">
-			<h1>skills.js</h1>
+			<h2>skills.js</h2>
 			<ul class="skill-list list-flat">
-				<li><span class="grey">// Click for testing function</span></li>
 				<li><span class="function" id="button"><span class="purple">function</span> <span class="orange">showMySkills</span><span class="yellow">( )</span><span class="yellow" style="margin-left:8px">{</span></span></li>
-					<li class="tab1"><span class="purple">let</span> <span class="darkblue">mySkills</span> = <span class="pink">[ ]</span>;</li>
-					<li class="tab1"><span class="purple">while</span> <span class="pink">(</span><span class="darkgreen">true</span><span class="pink">)</span> <span class="pink" style="margin-left:8px">{</span></li>
-						<li class="tab2"><span class="purple">let</span> <span class="darkblue">skill</span> = <span class="red">window</span>.<span class="orange">prompt</span><span class="blue">(</span><span class="green">'What skills do you have ? (Press Cancel to stop)'</span><span class="blue">)</span>;</li>
-						<li class="tab2"><span class="purple">if</span> <span class="blue">(</span><span class="darkblue">skill</span> === <span class="darkgreen">null</span><span class="blue">)</span> {</li>
-							<li class="tab3"><span class="purple">break</span>;</li>
-						<li class="tab2"><span class="pink">}</span></li>
-						<li class="tab2"><span class="darkblue">mySkills</span>.<span class="orange">push</span><span class="blue">(</span><span class="darkblue">skill</span><span class="blue">)</span>;</li>
-					<li class="tab1"><span class="pink">}</span></li>
 					<li class="tab1"><span class="grey">// Click for seeing result</span></li>
 					<li class="tab1"><button id="myButton"><span class="red">console</span>.<span class="orange">log</span><span class="pink">(</span><span class="green">'Show my skills :'</span>, <span class="darkblue">mySkills</span><span class="pink">)</span>;</button></li>
 				<li><span class="pink">}</span></li>
@@ -201,18 +215,18 @@
 			
 			<span></span>
 		</div>
-	</div>
+	</section>
 
 	<!-- About -->
-	<div class="about section second" id="about">
+	<section class="about section second" id="about">
 		<div class="container">
-			<h1>about-me.txt</h1>
+			<h2>about-me.txt</h2>
 			<p>
 				I was born in Rennes, i studied and lived there until 2021.
 				After that i've lived in Argentina for 6 months and discovered a beautiful country.
 			</p>
 			<p>I have always be attracted by new technologies and www. Today, i want to contribute my knowledge and skills in <strong>web development</strong> in order to carry out beautiful projects.</p>
-			<h4>- Personal interest</h4>
+			<h3>- Personal interest</h3>
 			<ul>
 				<li>Sports : football, squash, padel, rugby, hiking and others.</li>
 				<li>Travels: Argentina, Peru, Netherland, Morocco, Italia, Guadeloupe, Martinique, ...</li>
@@ -233,29 +247,22 @@
 				</div>
 			  </div>
 		</div>
-	</div>
-
-	<!-- Quote -->
-	<div class="quote">
-		<div class="container text-centered">
-			<h1>History is written by turning the pages.</h1>
-		</div>
-	</div>
+	</section>
 
 	<!-- Footer -->
 	<footer>
 		<div class="container">
-			<h5 style="width:100%;text-align:center;margin-bottom:35px">/*** THANKS FOR READING ***/<br>
-				/* CONTACT ME FOR MORE INFORMATION */</h5>
+			<h3 style="width:100%;text-align:center;margin-bottom:35px">/*** THANKS FOR READING ***/<br>
+				/* CONTACT ME FOR MORE INFORMATION */</h3>
 			<div class="units-row">
 			    <div class="unit-50">
 			    	<p>© mlhotellier - 2024</p>
 			    </div>
 			    <div class="unit-50">
 					<ul class="social list-flat right">
-						<li><a href="mailto:mathislhotellier@gmail.com"><i class="fa fa-send"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/mathis-l-hôtellier/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="https://github.com/mlhotellier" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+						<li><a href="mailto:mathislhotellier@gmail.com" title="Envoyer un e-mail"><i class="fa fa-send" aria-hidden="true"></i> Email</a></li>
+						<li><a href="https://www.linkedin.com/in/mathis-l-hôtellier/" target="_blank" title="Profil LinkedIn de Mathis L'Hôtellier"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+						<li><a href="https://github.com/mlhotellier" target="_blank" title="Profil GitHub de Mathis L'Hôtellier"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
 					</ul>
 			    </div>
 			</div>
