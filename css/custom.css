@@ -32,9 +32,9 @@ a:hover {
   } 
 
   .projects .grey {
-    color: gray; }
+    color: #afafaf; }
     .projects .grey a {
-      color: gray;
+      color: #afafaf;
       text-decoration: none; }
     .projects a:hover {
       color: rgb(88, 100, 186) !important; }
@@ -199,9 +199,9 @@ a:hover {
 .work .work-list {
   margin-left: 0px; }
   .work .grey {
-    color: gray; }
+    color: #afafaf; }
     .work .grey a {
-      color: gray;
+      color: #afafaf;
       text-decoration: none; }
     .work a:hover {
       color: rgb(88, 100, 186) !important; }
@@ -219,7 +219,7 @@ a:hover {
         .work .tab0 {
           font-size:17px;}
         .work .tab0 span {
-          color:darkorchid; }
+          color:#F77DFF; }
         .work .tab0 .company {
           color:rgb(209, 34, 206);
           font-weight: 700; }
@@ -227,7 +227,7 @@ a:hover {
           color:rgb(225, 207, 49);
           font-weight: 700; }
         .work .tab1 span {
-          color:darkorchid; }
+          color:#F77DFF; }
         .work .tab1 {
           color:gold; 
           font-weight: 600;
@@ -244,7 +244,7 @@ a:hover {
     color: #97d43c}
     .award .tab2 span {
       margin-right: 8px;
-      color: gray }
+      color: #afafaf }
       .award .tab2 .except {
         margin-right: 0px;
         color: #97d43c}
@@ -256,9 +256,9 @@ a:hover {
 .skills .skill-list {
   margin-left: 0px; }
   .skills .grey {
-    color: gray; }
+    color: #afafaf; }
     .skills .grey a {
-      color: gray;
+      color: #afafaf;
       text-decoration: none; }
     .skills a:hover {
       color: rgb(88, 100, 186) !important; }
@@ -282,13 +282,13 @@ a:hover {
     background-color: rgba(116, 116, 116, 0.569);
     border: 2px solid rgb(116, 116, 116); }
     .skills button:hover .darkblue{
-      color:rgb(139, 152, 250); }
+      color:#90ADFF; }
   .skills .purple {
     color: rgb(166, 70, 213); }
   .skills .pink { 
     color:plum;}
   .skills .orange {
-    color: darkorange; }
+    color: #FFC30D; }
   .skills .yellow {
     color: gold; }
   .skills .darkgreen {
@@ -296,13 +296,13 @@ a:hover {
   .skills .green {
     color: yellowgreen; }
   .skills .grey {
-    color: gray; }
+    color: #afafaf; }
   .skills .darkblue {
-    color:rgb(88, 100, 186);}
+    color:#90ADFF;}
   .skills .blue {
     color:rgb(0, 140, 255); }
   .skills .red {
-    color:rgb(219, 47, 47);}
+    color:#FF9100;}
 
    
 footer {
@@ -355,7 +355,7 @@ footer {
 }
 
 .modal-content {
-  background-color: #646464;
+  background-color: #4b4b4b;
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
