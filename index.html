@@ -14,26 +14,12 @@
 	<link rel="stylesheet" href="css/kube.css">
     <link rel="stylesheet" href="css/custom.css">
 	<!-- Fonts -->
-	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="preconnect" href="https://unpkg.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+	<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-	<!-- Javascript -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/typed.min.js"></script>
-    <script src="js/kube.min.js"></script>
-    <script src="js/site.js" defer></script>
-	<script src="js/modal.js" defer></script>
-	<script src="js/goToTop.js" defer></script>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HTTZFL5D45"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'G-HTTZFL5D45');
-	</script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700" type="text/css">
 </head>
 <body>
 	<!-- Navigation -->
@@ -60,7 +46,7 @@
 			<span id="typed"></span>
 			<div class="units-row units-split wrap">
 				<div class="unit-20">
-					<img src="img/ava.jpg" alt="photo of mathis">
+					<img src="img/ava.webp" alt="photo of mathis">
 				</div>
 				<div class="unit-80">
 					<h1><span>I'm Mathis</span><br>L'HÔTELLIER <span class="span">| 27 yo</span></h1>
@@ -221,13 +207,13 @@
 
 			<div class="gabarit">
 				<div class="box">
-				  <img src="img/peru.jpg" alt="photo of Macchu Pichu (Peru)">
+				  <img src="img/peru.webp" alt="photo of Macchu Pichu (Peru)" loading="lazy">
 				</div>
 				<div class="box">
-				  <img src="img/cats.jpg" alt="photo de 2 cats">
+				  <img src="img/cats.webp" alt="photo de 2 cats" loading="lazy">
 				</div>
 				<div class="box">
-				  <img src="img/argentina.jpg" alt="photo of the Perito Moreno glacier (Argentina)">
+				  <img src="img/argentina.webp" alt="photo of the Perito Moreno glacier (Argentina)" loading="lazy">
 				</div>
 			  </div>
 		</div>
@@ -255,5 +241,20 @@
 
 	<!-- Button go to top -->
 	<button onclick="topFunction()" id="myBtn" title="Retour en haut"><i class='bx bx-up-arrow-alt'></i></button>
+	<!-- Javascript -->
+	<script src="js/jquery.min.js" defer></script>
+	<script src="js/typed.min.js" defer></script>
+	<script src="js/kube.min.js" defer></script>
+	<script src="js/site.js" defer></script>
+	<script src="js/modal.js" defer></script>
+	<script src="js/goToTop.js" defer></script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HTTZFL5D45"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-HTTZFL5D45');
+	</script>
 </body>
 </html>

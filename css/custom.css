@@ -139,7 +139,7 @@ a:hover {
     position: relative; }
     .section:not(.about) .container:after {
       position: absolute;
-      content: url(../img/divider.png);
+      content: url(../img/divider.webp);
       left: 20px; }
 
 .intro {
@@ -221,7 +221,7 @@ a:hover {
         .work .tab0 span {
           color:#F77DFF; }
         .work .tab0 .company {
-          color:rgb(209, 34, 206);
+          color:#FF8CFF;
           font-weight: 700; }
         .work .tab0 .parenthese {
           color:rgb(225, 207, 49);
@@ -284,7 +284,7 @@ a:hover {
     .skills button:hover .darkblue{
       color:#90ADFF; }
   .skills .purple {
-    color: rgb(166, 70, 213); }
+    color: #E391FF; }
   .skills .pink { 
     color:plum;}
   .skills .orange {
