@@ -1,4 +1,4 @@
-*,
+.navbar li.active a,*,
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
@@ -1395,7 +1395,6 @@ input.input-smaller {
 .navbar li.active a,
 .navbar span {
   text-decoration: none;
-  cursor: text;
   color: rgba(0, 0, 0, 0.4);
 }
 .navigation-toggle {
