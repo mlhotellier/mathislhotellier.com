@@ -1,0 +1,180 @@
+/* $mobile = @media (max-width: 767.98px) {} */
+
+/* projet.html */
+#project-details .project-container {
+  padding-top: 40px;
+}
+@media (max-width: 767.98px) {
+  #project-details .project-container {
+    padding-top: 10px;
+  }
+}
+#project-details .project-container .project-img {
+  margin: 0px auto 12px;
+  width: 100%;
+  aspect-ratio: 5 / 3;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+#project-details .project-container .project-title {
+  font-family: "Source Code Pro", monospace;
+  font-weight: lighter;
+  color: #a7a7a7;
+}
+#project-details .project-container .booki {
+  color: #0065fc;
+}
+#project-details .project-container .sophie-bluel {
+  color: #b1663c;
+}
+#project-details .project-container .nina {
+  color: #d8d3a8;
+}
+#project-details .project-container .kasa {
+  color: #FF6060;
+}
+#project-details .project-container .grimoire {
+  color: #F2E3CE;
+}
+#project-details .project-container .qwenta {
+  color: #8BC7B1;
+}
+#project-details .project-container .country {
+  color: #61dafb;
+}
+#project-details .project-container .azertype {
+  color: #f76c5e;
+}
+#project-details .project-container .mlh {
+  color: #adff2f;
+}
+#project-details .project-container .role {
+  margin: 30px auto;
+  font-size: 26px;
+}
+#project-details .project-container .role .role-label {
+  color: #a7a7a7;
+  font-size: 20px;
+}
+#project-details .project-container .tags-list {
+  display: flex;
+  margin: 0 0 1.65em 0;
+  list-style-type: none;
+}
+@media (max-width: 767.98px) {
+  #project-details .project-container .tags-list {
+    flex-wrap: wrap;
+  }
+}
+#project-details .project-container .tags-list .project-tag {
+  margin: 4px;
+  padding: 1px 15px;
+  border: 1px solid white;
+  border-radius:15px;
+}
+#project-details .project-container .goals-list {
+  list-style-type: none;
+  margin:0 0 1.65em 0;
+}
+#project-details .project-container .goals-list li {
+  position: relative;
+  padding-left: 25px;
+}
+#project-details .project-container .goals-list li::before {
+  content: '✅';
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 16px; 
+  margin-right: 10px;
+}
+#project-details .project-container .link-github {
+  text-align: center;
+  margin:2.65em auto;
+  box-sizing: border-box;
+}
+#project-details .project-container .link-github a {
+  border: 1px solid transparent;
+  padding: 2px 18px;
+  border-radius: 15px;
+}
+#project-details .project-container .link-github a:hover {
+  border: 1px solid;
+  font-weight: bold;
+}
+#project-details .project-container .nav-project {
+  display: flex;
+  justify-content: space-between;
+}
+#project-details .project-container .nav-project .btn {
+  min-width: 90px;
+  background-color: transparent;
+  border: 0px;
+  color: #ffffff;
+  transform: translateX(0);
+  transition: transform 400ms ease-in;
+}
+#project-details .project-container .nav-project .btn:first-of-type:hover {
+  animation: moveLeftToRight 0.4s infinite alternate;
+}
+
+#project-details .project-container .nav-project .btn:last-of-type:hover {
+  animation: moveRightToLeft 0.4s infinite alternate;
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-5px);
+  }
+}
+
+@keyframes moveRightToLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(5px);
+  }
+}
+
+
+
+
+
+#error-message .error {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#error-message .error #projectList {
+  display: flex;
+  flex-wrap:wrap;
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 8px;
+}
+#error-message .error #projectList li {
+  margin: 8px;
+}
+#error-message .error p {
+  margin-bottom: 8px;
+}
+#project-details .mobile, #error-message .mobile {
+  display: none;
+  color:#a7a7a7;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+#project-details .mobile:hover, #error-message .mobile:hover {
+  color: #134da5;
+}
+@media (max-width: 767.98px){
+  #project-details .mobile, #error-message .mobile {
+    display: block;
+  }
+}

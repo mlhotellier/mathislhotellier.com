@@ -1,6 +1,6 @@
 // Récupérer le bouton et la modal
-var button = document.getElementById('myButton');
-var modal = document.getElementById('myModal');
+const button = document.getElementById('btnSkills');
+const modal = document.getElementById('skillsModal');
 
 // Quand l'utilisateur clique sur le bouton, afficher la modal
 button.onclick = function() {
@@ -8,7 +8,7 @@ button.onclick = function() {
 }
 
 // Quand l'utilisateur clique sur 'x', fermer la modal
-var closeBtn = document.querySelector('.close');
+const closeBtn = document.querySelector('.close');
 closeBtn.onclick = function() {
   modal.style.display = 'none';
 }
