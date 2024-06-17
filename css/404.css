@@ -1,0 +1,42 @@
+/* $mobile = @media (max-width: 767.98px) {} */
+
+/* 404.html */
+.page-not-found {
+    padding-top: 40px;
+    position:relative;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 767.98px) {
+    .page-not-found {
+      padding-top: 10px;
+    }
+}
+
+.page-not-found .h1:before {
+    content: '.404';/* Edit this with your name or anything else */
+    position: absolute;
+    font-size: 270px;
+    left: 0px;
+    top: 50px;
+    z-index: -1;
+    color: #4c5213;
+}
+@media (max-width: 767.98px) {
+    .page-not-found .h1:before {
+        font-size: 200px !important;
+        left: 50px;
+    }
+}
+
+.page-not-found .btn-to-home {
+    color:#a7a7a7;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.page-not-found .btn-to-home:hover {
+    color: #134da5;
+}
