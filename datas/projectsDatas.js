@@ -129,7 +129,7 @@ const projectsDatas = [
         "id":6,
         "name":"qwenta",
         "title": "menu-marker.qwenta.com",
-        "imageHead":"./img/qwenta.png",
+        "imageHead":"./img/qwenta.webp",
         "description": "The mission was to manage the development planning of a website.",
         "role": "Product Owner / Front-End Developer",
         "goals": [
