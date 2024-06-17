@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const projectDetailsContainer = document.getElementById('project-details');
             projectDetailsContainer.innerHTML = `
             <div class="project-container">
-                <a href="/fr/" class="mobile"><i class='bx bx-chevron-left'></i> Retour à l'accueil</a>
+                <a href="./" class="mobile"><i class='bx bx-chevron-left'></i> Retour à l'accueil</a>
                 <img class="project-img" src="${project.imageHead}" alt="${project.title}" >
                 <h2 class="project-title">> /projets/<span class="${project.name}">${project.title}</span></h2>
                 <h3 class="role"><span class="role-label">Rôle:</span> ${project.role}</h3>
