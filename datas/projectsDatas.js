@@ -125,26 +125,28 @@ const projectsDatas = [
         ],
         "link":"https://github.com/mlhotellier/_backend_mon-vieux-grimoire.com"
     },
-    // {
-    //     "id":6,
-    //     "name":"qwenta",
-    //     "title": "menu-marker.qwenta.com",
-    //     "imageHead":"./img/no-img.webp",
-    //     "description": "The mission was to manage the development planning of a website.",
-    //     "role": "Product Owner / Front-End Developer",
-    //     "goals": [
-    //         "Break down a feature into tasks to prepare development",
-    //         "Set up a technology watch method",
-    //         "Present the technical solution",
-    //         "Write technical specifications for a web project based on functional requirements",
-    //         "Monitor project progress using a project management tool"
-    //     ],
-    //     "tags":[
-    //         "Trello",
-    //         "Feedly"
-    //     ],
-    //     "link":"https://github.com/mlhotellier/"
-    // },
+    {
+        "id":6,
+        "name":"qwenta",
+        "title": "menu-marker.qwenta.com",
+        "imageHead":"./img/qwenta.png",
+        "description": "The mission was to manage the development planning of a website.",
+        "role": "Product Owner / Front-End Developer",
+        "goals": [
+            "Break down a feature into tasks to prepare development",
+            "Set up a technology watch method",
+            "Present the technical solution",
+            "Write technical specifications for a web project based on functional requirements",
+            "Monitor project progress using a project management tool"
+        ],
+        "tags":[
+            "Trello",
+            "Feedly",
+            "Agile Method",
+            "SCRUM"
+        ],
+        "link":"https://github.com/mlhotellier/menu-maker.qwenta.com"
+    },
     {
         "id":7,
         "name": "country",
@@ -175,7 +177,7 @@ const projectsDatas = [
         "role": "Junior Front-End Developer",
         "goals": [
             "Manipulate data with JavaScript",
-            "write a JavaScript file",
+            "Write a JavaScript file",
             "Make JavaScript interact with your web page",
             "Create a data entry form"
         ],

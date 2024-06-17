@@ -21,7 +21,6 @@ function newTyped(){}$(function(){$("#typed").typed({
   typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
 
 
-
 // Function to manage the sandwich menu
 const burger = document.getElementById('burger');
 const containerMenu = document.getElementById('containerMenu');

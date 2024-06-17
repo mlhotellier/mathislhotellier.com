@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         projectCard.innerHTML = `
         <a class="card-link" href="${projectPageLink}">  
-        <img class="card-img" src="${project.imageHead}" alt="${project.title}">
+        <img loading="lazy" class="card-img" src="${project.imageHead}" alt="${project.title}">
         <h3 class="card-title">${project.title}</h3>
         <ul class="card-tags-list">
         ${project.tags.map(tag => `<li class="tag">${tag}</li>`).join('')}

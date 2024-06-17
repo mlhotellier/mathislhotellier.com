@@ -12,7 +12,6 @@
 #project-details .project-container .project-img {
   margin: 0px auto 12px;
   width: 100%;
-  aspect-ratio: 5 / 3;
   border-radius: 10px;
   border: 2px solid white;
 }
