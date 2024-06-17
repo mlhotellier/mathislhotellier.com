@@ -156,6 +156,12 @@
 #error-message .error #projectList li {
   margin: 8px;
 }
+#error-message .error #projectList a {
+  color: #fff;
+}
+#error-message .error #projectList a:hover {
+  color: #adff2f;
+}
 #error-message .error p {
   margin-bottom: 8px;
 }
@@ -171,5 +177,8 @@
 @media (max-width: 767.98px){
   #project-details .mobile, #error-message .mobile {
     display: block;
+  }
+  #error-message .error #projectList {
+    justify-content:center;
   }
 }

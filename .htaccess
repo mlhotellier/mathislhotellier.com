@@ -46,3 +46,6 @@ ExpiresDefault "access plus 2 days"
 
 # 404
 ErrorDocument 404 /404.html
+
+# 404 en français
+ErrorDocument 404 /fr/404.html
