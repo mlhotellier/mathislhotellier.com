@@ -55,13 +55,26 @@ a:hover {
     left: 20px; 
 }
 
+/***********************/
+/** LANGUAGE SELECTOR **/
+/***********************/
+.language-selector {
+  text-align: center;
+  margin-top: 10px;
+}
+.language-selector .lang-link {
+  color: #a7a7a7;
+  opacity: 0.7;
+}
+.language-selector .lang-link:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+
 /********************/
 /**** NAVIGATION ****/
 /********************/
-
-.main-nav {
-  padding-top: 23px;
-}
 .main-nav .navbar .nav-items {
   display: flex;
   justify-content: space-between;
@@ -165,7 +178,7 @@ a:hover {
 /*** SECTION INTRO **/
 /********************/
 .intro {
-  padding: 95px 0px 70px 0px;
+  padding: 70px 0px 70px 0px;
   overflow-x: hidden; 
 }
 .intro #typed {

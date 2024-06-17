@@ -23,7 +23,7 @@ const projectsDatas = [
         "id":1,
         "name":"booki",
         "title": "booki.com",
-        "imageHead":"./img/booki.webp",
+        "imageHead":"../img/booki.webp",
         "description": "The main mission was to integrate the responsive interface of their site.",
         "role": "Junior Web Developer",
         "goals": [
@@ -42,7 +42,7 @@ const projectsDatas = [
         "id":2,
         "name":"sophie-bluel",
         "title": "architecte.sophie-bluel.com",
-        "imageHead":"./img/sophie-bluel.webp",
+        "imageHead":"../img/sophie-bluel.webp",
         "description": "The mission was to create a dynamic web page for the website of an interior architect using JavaScript and communicating with an API.",
         "role": "Front-End Developer",
         "goals": [
@@ -63,7 +63,7 @@ const projectsDatas = [
         "id":3,
         "name":"nina",
         "title": "nina-carducci.github.io",
-        "imageHead":"./img/nina-carducci.webp",
+        "imageHead":"../img/nina-carducci.webp",
         "description": "The mission was to optimize the SEO of a site by improving its performance and accessibility.",
         "role": "Web Developer",
         "goals": [
@@ -86,7 +86,7 @@ const projectsDatas = [
         "id":4,
         "name":"kasa",
         "title": "kasa.com",
-        "imageHead":"./img/kasa.webp",
+        "imageHead":"../img/kasa.webp",
         "description": "The mission was to implement the front-end of an application using React and React Router to create a modern and responsive user experience.",
         "role": "Front-End ReactJS Developer",
         "goals": [
@@ -107,7 +107,7 @@ const projectsDatas = [
         "id":5,
         "name":"grimoire",
         "title": "mon-vieux-grimoire.com",
-        "imageHead":"./img/mon-vieux-grimoire.webp",
+        "imageHead":"../img/mon-vieux-grimoire.webp",
         "description": "The mission was to develop the back-end of a book rating site.",
         "role": "Back-End Developer",
         "goals": [
@@ -129,7 +129,7 @@ const projectsDatas = [
         "id":6,
         "name":"qwenta",
         "title": "menu-marker.qwenta.com",
-        "imageHead":"./img/qwenta.webp",
+        "imageHead":"../img/qwenta.webp",
         "description": "The mission was to manage the development planning of a website.",
         "role": "Product Owner / Front-End Developer",
         "goals": [
@@ -151,7 +151,7 @@ const projectsDatas = [
         "id":7,
         "name": "country",
         "title": "country-quizz.io",
-        "imageHead":"./img/country-quizz.webp",
+        "imageHead":"../img/country-quizz.webp",
         "description": "The main mission was to fetch information about various countries from an API, display them on the page, and create a mini-game.",
         "role": "Junior Web Developer",
         "goals": [
@@ -172,7 +172,7 @@ const projectsDatas = [
         "id":8,
         "name": "azertype",
         "title": "azertype.fr",
-        "imageHead":"./img/azertype.webp",
+        "imageHead":"../img/azertype.webp",
         "description": "The main mission was to create a mini-game.",
         "role": "Junior Front-End Developer",
         "goals": [
