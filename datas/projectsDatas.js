@@ -1,23 +1,27 @@
 const projectsDatas = [
-    // {
-    //     "id":0,
-    //     "name":"mlh",
+    //{
+    //     "id": 0,
+    //     "name": "mlh",
     //     "title": "mathislhotellier.com",
-    //     "imageHead":"./img/no-img.png",
-    //     "description": "The main mission was",
+    //     "imageHead": "./img/no-img.png",
+    //     "description": "The main mission was to think and create my own portfolio that suits me and will help me in my job searches.",
     //     "role": "Web Developer",
     //     "goals": [
-    //         "Lorem ipsum dolor sit amet.",
+    //         "Create a visual identity",
+    //         "Deploy a static site online",
+    //         "Adapt the site to a mobile version",
+    //         "Translate the site into two languages"
     //     ],
-    //     "tags":[
+    //     "tags": [
     //         "Webdesign",
     //         "HTML",
     //         "CSS",
     //         "Javascript",
     //         "JSON",
-    //         "Lighthouse"
+    //         "Lighthouse",
+    //         "FTP"
     //     ],
-    //     "link":"https://github.com/mlhotellier/mathislhotellier.com"
+    //     "link": "https://github.com/mlhotellier/mathislhotellier.com"
     // },
     {
         "id":1,
