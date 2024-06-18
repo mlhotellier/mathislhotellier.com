@@ -48,5 +48,16 @@
 # Redirection vers la page d'erreur 404 pour mathislhotellier.com
 ErrorDocument 404 /404-en.html
 
-# Redirection vers la page d'erreur 404 pour mathislhotellier.com/fr
-ErrorDocument 404 /fr/404-fr.html
+# Gestion des redirections d'erreur 404 pour mathislhotellier.com/fr
+RewriteEngine On
+
+# Si l'URL commence par /fr et n'existe pas, rediriger vers /fr/404-fr.html
+RewriteCond %{REQUEST_URI} ^/fr/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* /fr/404-fr.html [L]
+
+# Pour toutes les autres URL non existantes, rediriger vers /404.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* /404-en.html [L]
