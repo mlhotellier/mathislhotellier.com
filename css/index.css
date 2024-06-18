@@ -572,6 +572,9 @@ a:hover {
 /********************/
 /** SECTION ABOUT **/
 /********************/
+.about .container .personal-int-list .personal-int-type {
+  color:#a7a7a7;
+}
 .about .gabarit {
   display: flex;
   width: 100%;
