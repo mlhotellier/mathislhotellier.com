@@ -1,32 +1,16 @@
-$(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html,body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
-          return false;
-        }
-      }
-    });
-});
-
-function newTyped(){}$(function(){$("#typed").typed({
-    // Change to edit type effect
-    strings: ["Hello,", "Bonjour,", "Hola,", "こんにちは,", "你好,"],
-    typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")
-  })});
-
-// Quand l'utilisateur fait défiler la page de 20px vers le bas, afficher le bouton
-window.onscroll = function() {scrollFunction()};
-
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementById("myBtn").style.display = "block";
+        document.getElementById("contactForm").style.display = "block";
+        if (window.innerWidth > 1098) {
+          document.getElementById("contactLinkMenu").style.display = "none";
+        } else {
+          document.getElementById("contactLinkMenu").style = "";
+        }
     } else {
         document.getElementById("myBtn").style.display = "none";
+        document.getElementById("contactForm").style.display = "none";
+        document.getElementById("contactLinkMenu").style = "";
     }
 }
 
@@ -47,3 +31,6 @@ function topFunction() {
         }
     },15); // Vitesse de défilement en millisecondes
 }
+
+// Quand l'utilisateur fait défiler la page de 20px vers le bas, afficher le bouton
+window.onscroll = function() {scrollFunction()};
