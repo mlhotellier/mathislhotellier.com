@@ -10,9 +10,8 @@ menuBurger.innerHTML = `
   <li><a class="burger-link" href="#achievements">formations</a></li>
   <li><a class="burger-link" href="#skills">compétences</a></li>
   <li><a class="burger-link" href="#about">à propos</a></li>
-  // Changer le lien
-  <li><button class="burger-link burger-contact-btn" data-tally-open="3qBMog" data-tally-layout="modal" data-tally-auto-close="8000">contact</button></li>
-`;
+  <li><button class="burger-link burger-contact-btn" data-tally-open="mKoZAM" data-tally-layout="modal" data-tally-auto-close="8000">contact</button></li>
+  `;
 
 function toggleMenu() {
   if (containerMenu.classList.contains('open')) {
