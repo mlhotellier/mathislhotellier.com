@@ -41,6 +41,8 @@
 				        <li class="nav-link"><a href="#achievements">formations</a></li>
 				        <li class="nav-link"><a href="#skills">compétences</a></li>
 				        <li class="nav-link"><a href="#about">à propos</a></li>
+						<!-- Changer le lien -->
+						<li id="contactLinkMenu" class="nav-link"><button class="contact-btn" data-tally-open="3qBMog" data-tally-layout="modal" data-tally-auto-close="8000">contact</button></li>
 						<button id="burger" class="menu-burger">menu</button>
 				    </ul>
 				</nav>
@@ -230,31 +232,33 @@
 	<!-- Footer -->
 	<footer class="footer">
 		<div class="container">
-			<h3 style="width:100%;text-align:center;margin-bottom:35px">/*** MERCI D'AVOIR LU ***/<br>
-				/* CONTACTEZ-MOI POUR PLUS D'INFORMATIONS */</h3>
-			<div class="units-row">
-			    <div class="unit-50">
-			    	<p>© mlhotellier - 2024</p>
-			    </div>
-			    <div class="unit-50">
+			<h3 class="text">/* CONTACTEZ-MOI POUR PLUS D'INFORMATIONS */</h3>
+			<div class="units-row bottom">
+				<div class="unit-50">
+					<p class="copyright">© mlhotellier - 2024</p>
+				</div>
+				<div class="unit-50">
 					<ul class="social list-flat right">
-						<li class="social-item"><a class ="link" href="mailto:mathislhotellier@gmail.com" title="Envoyer un e-mail"><i class="social-icon fa-solid fa-paper-plane" aria-hidden="true"></i> Email</a></li>
-						<li class="social-item"><a class ="link" href="https://www.linkedin.com/in/mathis-l-hôtellier/" target="_blank" title="Profil LinkedIn de Mathis L'Hôtellier"><i class="social-icon fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
-						<li class="social-item"><a class ="link" href="https://github.com/mlhotellier" target="_blank" title="Profil GitHub de Mathis L'Hôtellier"><i class="social-icon fa-brands fa-github" aria-hidden="true"></i> GitHub</a></li>
+						<li class="social-item"><a class="link" href="mailto:mathislhotellier@gmail.com" title="Envoyer un e-mail"><i class="social-icon fa-solid fa-paper-plane" aria-hidden="true"></i> Email</a></li>
+						<li class="social-item"><a class="link" href="https://www.linkedin.com/in/mathis-l-hôtellier/" target="_blank" title="Profil LinkedIn de Mathis L'Hôtellier"><i class="social-icon fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+						<li class="social-item"><a class="link" href="https://github.com/mlhotellier" target="_blank" title="Profil GitHub de Mathis L'Hôtellier"><i class="social-icon fa-brands fa-github" aria-hidden="true"></i> GitHub</a></li>
 					</ul>
-			    </div>
+				</div>
 			</div>
 		</div>
 	</footer>
 
 	<!-- Button go to top -->
 	<button class="go-to-top" onclick="topFunction()" id="myBtn" title="Retour en haut"><i class='bx bx-up-arrow-alt'></i></button>
+		<!-- Changer le lien -->
+	<button class="contact-form" id="contactForm" data-tally-open="3qBMog" data-tally-layout="modal" data-tally-auto-close="8000">contact</button>
 	<!-- Datas -->
 	<script src="./datas/projectDatas.js"></script>
 	<!-- Javascript -->
 	<script src="../js/jquery.min.js" defer></script>
 	<script src="../js/kube.min.js" defer></script>
 	<script src="../js/typed.min.js" defer></script>
+	<script src="js/script.js" defer></script>
 	<script src="./js/site.js" defer></script>
 	<script src="../js/modal.js" defer></script>
 	<script src="../js/goToTop.js" defer></script>
@@ -267,5 +271,7 @@
 		gtag('js', new Date());
 		gtag('config', 'G-HTTZFL5D45');
 	</script>
+	<!-- Tally form (https://tally.so) -->
+	<script async src="https://tally.so/widgets/embed.js"></script>
 </body>
 </html>
