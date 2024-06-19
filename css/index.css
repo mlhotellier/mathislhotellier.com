@@ -94,6 +94,16 @@ a:hover {
 .main-nav .navbar .nav-items .nav-link a:hover {
   color: #f7f7f7;
 }
+.main-nav .navbar .nav-items .nav-link .contact-btn {
+  background: transparent;
+  border: 1px solid #a7a7a7;
+  border-radius: 3px;
+  color: #a7a7a7;
+}
+.main-nav .navbar .nav-items .nav-link .contact-btn:hover {
+  color: #f7f7f7;
+  border: 1px solid #f7f7f7;
+}
 .main-nav .color-changing a {
   animation: changeColor 5s infinite;
 }
@@ -149,23 +159,40 @@ a:hover {
   .main-nav .navbar .nav-items .menu-burger:hover {
     color: #f7f7f7;
   }
+  .main-nav .navbar .nav-items .close-item {
+    color:#222222;
+  }
+  .main-nav .navbar .nav-items .close-item:hover {
+    color: #f7f7f7;
+  }
 }
   /* menu burger */
 .main-nav .gabarit-burger-menu {
-  background-color: #a7a7a7;
+  background: linear-gradient(46deg, #3D3B3D, #8c8f90);
+	background-size: 200% 200%;
   box-shadow: 1px 1px 8px -1px rgb(175, 175, 173);
   position: absolute;
   border-radius: 170px 0 170px 170px;
   top: -10px;
-  right: -25px;
+  right: -16px;
   z-index: 1;
-  padding: 60px 100px 60px 80px;
+  padding: 70px 120px 60px 90px;
   transform: scale(0);
   transition: transform 0.5s ease-in-out;
   transform-origin: top right;
 }
 .main-nav .gabarit-burger-menu.open {
   transform: scale(1);
+}
+.main-nav .gabarit-burger-menu .burger-contact-btn {
+  background: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  color: #ffffff;
+}
+.main-nav .gabarit-burger-menu .burger-contact-btn:hover {
+  border: 1px solid #adff2f;
+  color: #adff2f;
 }
 @media (min-width: 767.99px) {
   .main-nav .gabarit-burger-menu.open {
@@ -636,36 +663,55 @@ a:hover {
 .footer {
   padding: 50px 0px 0px 0px;
 }
-.footer .social .social-item {
+.footer .container .text {
+  width:100%;
+  text-align:center;
+  margin-bottom:35px
+}
+.footer .container .bottom {
+  display: flex;
+}
+@media (max-width:915.98px) {
+  .footer .container .bottom {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .footer .container .bottom .copyright {
+    margin-bottom: 3em;
+  }
+  .footer {
+    text-align: center; 
+  }
+  .footer .bottom .social .social-item:first-child {
+    margin:0;
+  }
+  .footer .container .units-row .unit-50 {
+    margin-bottom: 1.65em;
+    margin-left: 0;
+  }
+}
+.footer .bottom .social .social-item {
   display: inline;
   margin-left: 20px;
 }
-.footer .social .social-item .link {
+.footer .bottom .social .social-item .link {
   font-size: 0.95em;
   color: #eee;
   text-decoration: none;
 }
-.footer .social .social-item .link:hover {
+.footer .bottom .social .social-item .link:hover {
   color: #adff2f;
 }
-.footer .social .social-item .link .social-icon {
+.footer .bottom .social .social-item .link .social-icon {
   font-size: 1.25em;
   color: #eee;
   margin-right: 5px;
 }
-.footer .social .social-item .link:hover .social-icon {
+.footer .bottom .social .social-item .link:hover .social-icon {
   color: #adff2f;
 }
 .footer .units-row {
   margin-bottom: 0 !important;
-}
-@media (max-width:767.98px){
-  .footer {
-    text-align: center; 
-  }
-  .footer .social .social-item:first-child {
-    margin:0;
-  }
 }
 
 
@@ -690,5 +736,30 @@ a:hover {
   box-shadow: -1px -1px 7px rgba(255, 255, 255, .7);
 }
 .go-to-top:hover{
+  color:#222222!important;
+}
+
+/*********************/
+/* BUTTON CONTACT ME */
+/*********************/
+.contact-form {
+  display: none; /* Masquer le bouton par défaut */
+  height:33px;
+  position: fixed; /* Position fixe pour le bouton */
+  bottom: 20px; /* Position du bouton par rapport au bas de la page */
+  right: 70px; /* Position du bouton par rapport à la droite de la page */
+  z-index: 99; /* Place le bouton au-dessus des autres éléments de la page */
+  font-size: 14px; /* Taille du texte */
+  border: none; /* Supprime les bordures */
+  outline: none; /* Supprime le focus */
+  cursor: pointer; /* Curseur de la souris */
+  background-color: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+  animation: changeColor 5s infinite;
+  transition: .2s ease-in-out;
+  box-shadow: -1px -1px 7px rgba(255, 255, 255, .7);
+}
+.contact-form:hover{
   color:#222222!important;
 }

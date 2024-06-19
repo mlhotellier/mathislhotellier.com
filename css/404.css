@@ -31,7 +31,9 @@
         left: 50px;
     }
 }
-
+.page-not-found .text-error {
+    text-align: center;
+}
 .page-not-found .btn-to-home {
     color:#a7a7a7;
     text-decoration: none;
