@@ -42,3 +42,9 @@
 .page-not-found .btn-to-home:hover {
     color: #134da5;
 }
+
+@media (max-width: 767.98px){
+    .main-nav .navbar .nav-items #contactLinkMenu {
+      display: block;
+    }
+  }

@@ -96,13 +96,13 @@ a:hover {
 }
 .main-nav .navbar .nav-items .nav-link .contact-btn {
   background: transparent;
-  border: 1px solid #a7a7a7;
-  border-radius: 3px;
+  border: transparent;
+  padding:0;
+  font-size: 1em;
   color: #a7a7a7;
 }
 .main-nav .navbar .nav-items .nav-link .contact-btn:hover {
-  color: #f7f7f7;
-  border: 1px solid #f7f7f7;
+  color: #adff2f;
 }
 .main-nav .color-changing a {
   animation: changeColor 5s infinite;
@@ -115,7 +115,7 @@ a:hover {
   100% { color:#0080c9; }
 }
 .main-nav .color-changing a:hover {
-  color: #9b5de5 !important;
+  color: #D596FF !important;
 }
 .main-nav .navbar .nav-items .menu-burger {
   display: none;
@@ -186,12 +186,12 @@ a:hover {
 }
 .main-nav .gabarit-burger-menu .burger-contact-btn {
   background: transparent;
-  border: 1px solid #ffffff;
-  border-radius: 3px;
+  border: transparent;
+  padding:0;
+  font-size: 1em;
   color: #ffffff;
 }
 .main-nav .gabarit-burger-menu .burger-contact-btn:hover {
-  border: 1px solid #adff2f;
   color: #adff2f;
 }
 @media (min-width: 767.99px) {

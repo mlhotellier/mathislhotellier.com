@@ -165,6 +165,7 @@
 #error-message .error p {
   margin-bottom: 8px;
 }
+
 #project-details .mobile, #error-message .mobile {
   display: none;
   color:#a7a7a7;
@@ -180,5 +181,8 @@
   }
   #error-message .error #projectList {
     justify-content:center;
+  }
+  .main-nav .navbar .nav-items #contactLinkMenu {
+    display: block;
   }
 }
