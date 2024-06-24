@@ -18,8 +18,10 @@ const projectsDatas = [
     //         "CSS",
     //         "Javascript",
     //         "JSON",
+    //         "Tally"
     //         "Lighthouse",
-    //         "FTP"
+    //         "FileZila",
+    //         "OVH"
     //     ],
     //     "link": "https://github.com/mlhotellier/mathislhotellier.com"
     // },
