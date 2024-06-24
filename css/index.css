@@ -279,6 +279,13 @@ a:hover {
   color:#c8c8c8d4;
   font-size:100%;
 }
+.intro .job-title {
+  font-size:29px;
+  color: #adff2f;
+  width: 100%;
+  margin: 12px 0 2px;
+  font-family: "Source Code Pro", monospace;
+}
 .intro .resume .bold { 
   font-weight: bold;
 }
