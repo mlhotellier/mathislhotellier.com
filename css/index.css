@@ -609,6 +609,11 @@ a:hover {
 .about .container .personal-int-list .personal-int-type {
   color:#a7a7a7;
 }
+.about .container .personal-int-list .em {
+  font-size:10px;
+  position: relative;
+  top:-1px;
+}
 .about .gabarit {
   display: flex;
   width: 100%;
