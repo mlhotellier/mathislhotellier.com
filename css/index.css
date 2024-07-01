@@ -663,9 +663,6 @@ a:hover {
     height: auto;
     aspect-ratio: 16/8;
   }
-  .about .gabarit .box:hover { 
-    height: 400px;
-  }
   .about .gabarit .box:hover > img {
     width: 100%;
     height: 100%;
