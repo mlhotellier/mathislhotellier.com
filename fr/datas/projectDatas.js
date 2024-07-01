@@ -4,7 +4,7 @@ const projectsDatas = [
         "name": "mlh",
         "title": "mathislhotellier.com",
         "imageHead": "../img/mathislhotellier.webp",
-        "description": "La mission principale était de penser et créer mon propre portfolio qui me convient et m'aidera dans mes recherches d'emploi.",
+        "description": "La mission principale était de penser et créer un portfolio profesionnel qui nous correspond et qui nous aidera dans notre recherche d'emploi.",
         "role": "Développeur Web",
         "goals": [
             "Créer une identité visuelle",
