@@ -1,30 +1,30 @@
 const projectsDatas = [
-    //{
-    //     "id": 0,
-    //     "name": "mlh",
-    //     "title": "mathislhotellier.com",
-    //     "imageHead": "./img/no-img.png",
-    //     "description": "The main mission was to think and create my own portfolio that suits me and will help me in my job searches.",
-    //     "role": "Web Developer",
-    //     "goals": [
-    //         "Create a visual identity",
-    //         "Deploy a static site online",
-    //         "Adapt the site to a mobile version",
-    //         "Translate the site into two languages"
-    //     ],
-    //     "tags": [
-    //         "Webdesign",
-    //         "HTML",
-    //         "CSS",
-    //         "Javascript",
-    //         "JSON",
-    //         "Tally"
-    //         "Lighthouse",
-    //         "FileZila",
-    //         "OVH"
-    //     ],
-    //     "link": "https://github.com/mlhotellier/mathislhotellier.com"
-    // },
+    {
+        "id": 0,
+        "name": "mlh",
+        "title": "mathislhotellier.com",
+        "imageHead": "./img/mathislhotellier.webp",
+        "description": "The main mission was to think and create my own portfolio that suits me and will help me in my job searches.",
+        "role": "Web Developer",
+        "goals": [
+            "Create a visual identity",
+            "Deploy a static site online",
+            "Adapt the site to a mobile version",
+            "Translate the site into two languages",
+            "Site optimization with Google Lighthouse"
+        ],
+        "tags": [
+            "Webdesign",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "JSON",
+            "Tally",
+            "Lighthouse",
+            "FileZila"
+        ],
+        "link": "https://github.com/mlhotellier/mathislhotellier.com"
+    },
     {
         "id":1,
         "name":"booki",

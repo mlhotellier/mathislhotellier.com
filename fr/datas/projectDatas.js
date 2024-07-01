@@ -1,30 +1,30 @@
 const projectsDatas = [
-    // {
-    //     "id": 0,
-    //     "name": "mlh",
-    //     "title": "mathislhotellier.com",
-    //     "imageHead": "./img/no-img.png",
-    //     "description": "La mission principale était de penser et créer mon propre portfolio qui me convient et m'aidera dans mes recherches d'emploi.",
-    //     "role": "Développeur Web",
-    //     "goals": [
-    //         "Créer une identité visuelle",
-    //         "Déployer un site statique en ligne",
-    //         "Adapter le site à une version mobile",
-    //         "Traduire le site en deux langues"
-    //     ],
-    //     "tags": [
-    //         "Webdesign",
-    //         "HTML",
-    //         "CSS",
-    //         "Javascript",
-    //         "JSON",
-    //         "Tally"
-    //         "Lighthouse",
-    //         "FileZila",
-    //         "OVH"
-    //     ],
-    //     "link": "https://github.com/mlhotellier/mathislhotellier.com"
-    // },
+    {
+        "id": 0,
+        "name": "mlh",
+        "title": "mathislhotellier.com",
+        "imageHead": "../img/mathislhotellier.webp",
+        "description": "La mission principale était de penser et créer mon propre portfolio qui me convient et m'aidera dans mes recherches d'emploi.",
+        "role": "Développeur Web",
+        "goals": [
+            "Créer une identité visuelle",
+            "Déployer un site statique en ligne",
+            "Adapter le site à une version mobile",
+            "Traduire le site en deux langues",
+            "Optimiser le site avec Google Lighthouse"
+        ],
+        "tags": [
+            "Webdesign",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "JSON",
+            "Tally",
+            "Lighthouse",
+            "FileZila"
+        ],
+        "link": "https://github.com/mlhotellier/mathislhotellier.com"
+    },
     {
         "id": 1,
         "name": "booki",
