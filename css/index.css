@@ -474,11 +474,14 @@ a:hover {
   margin-left: 0px;
   margin-bottom: 20px;
 }
+.formations .formations-list .title:not(span) {
+  color: #97d43c;
+}
 .formations .formations-list .tab1 {
   margin-left:15px; }
 .formations .formations-list .tab2 {
   margin-left: 30px; 
-  color: #97d43c;
+  color: #ffffff;
 }
 .formations .formations-list .tab2 span {
   margin-right: 8px;
