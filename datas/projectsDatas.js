@@ -194,4 +194,26 @@ const projectsDatas = [
         ],
         "link":"https://github.com/mlhotellier/azertype.fr"
     },
+    {
+        "id":9,
+        "name":"shiny",
+        "title": "shiny-agency.com",
+        "imageHead":"./img/shiny-agency.webp",
+        "description": "The main mission was to build a robust Single Page Application in React incorporating React Router v6, PropTypes, Styled Components, hooks, testing, and understanding class components to evolve within the React ecosystem.",
+        "role": "Front-End React Developer",
+        "goals": [
+            "Initialize an application with Create React App",
+            "Develop a web interface with styled-component",
+            "Build a complete Single Page Application that respects a robust architecture",
+            "Master hooks",
+            "Test your React application",
+            "Evolve in a codebase that uses class components"
+        ],
+        "tags":[
+            "ReactJS",
+            "NodeJS",
+            "API"
+        ],
+        "link":"https://github.com/mlhotellier/shiny-agency.com"
+    },
 ];
