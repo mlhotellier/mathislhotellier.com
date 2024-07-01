@@ -68,11 +68,9 @@ a:hover {
 }
 .language-selector .lang-link {
   color: #a7a7a7;
-  opacity: 0.7;
 }
 .language-selector .lang-link:hover {
   color: #fff;
-  opacity: 1;
 }
 
 
