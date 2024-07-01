@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /datas/
+Disallow: /fr/datas/
+Sitemap: https://www.mathislhotellier.com/sitemap.xml
