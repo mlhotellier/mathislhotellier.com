@@ -50,6 +50,9 @@
 #project-details .project-container .shiny {
   color: #5843E4;
 }
+#project-details .project-container .pokequiz {
+  color: #e62b34;
+}
 #project-details .project-container .role {
   margin: 30px auto;
   font-size: 26px;

@@ -216,4 +216,27 @@ const projectsDatas = [
         ],
         "link":"https://github.com/mlhotellier/shiny-agency.com"
     },
+    {
+        "id":10,
+        "name":"pokequiz",
+        "title": "PokeQuiz.app",
+        "imageHead":"./img/pokequiz.webp",
+        "description": "The mission was to create a Pokémon quiz application featuring multiple difficulty modes, a leaderboard to track top scores, and detailed Pokémon. Personal project.",
+        "role": "App Developer",
+        "goals": [
+            "Design and implement a quiz app with multiple difficulty levels",
+            "Display the best player scores in real time",
+            "Fetch Pokémon data from an external API and display it",
+            "Optimize navigation with React Navigation for seamless transitions",
+            "Ensure compatibility across Android and iOS devices",
+        ],
+        "tags":[
+            "React Native",
+            "iOS / Android",
+            "Expo",
+            "Firebase",
+            "Axios"
+        ],
+        "link":"https://github.com/mlhotellier/PokeQuiz"
+    },
 ];
