@@ -222,7 +222,7 @@ const projectsDatas = [
         "title": "PokeQuiz.app",
         "imageHead": "../img/pokequiz.webp",
         "description": "La mission consistait à créer une application de quiz Pokémon proposant plusieurs niveaux de difficulté, un classement pour suivre les meilleurs scores et des statistiques détaillées sur les Pokémon. Projet personnel.",
-        "role": "Développeur d'Application",
+        "role": "Développeur d'Applications",
         "goals": [
             "Concevoir et développer une application de quiz avec différents niveaux de difficulté",
             "Afficher en temps réel les meilleurs scores des joueurs",
