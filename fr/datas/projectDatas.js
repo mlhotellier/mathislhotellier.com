@@ -238,5 +238,27 @@ const projectsDatas = [
             "Axios"
         ],
         "link": "https://github.com/mlhotellier/PokeQuiz"
+    },
+    {
+        "id": 11,
+        "name": "petconnect",
+        "title": "PetConnect",
+        "imageHead": "../img/petconnect.webp",
+        "description": "La mission consistait à créer une application React permettant d'avoir toutes les informations nécessaires au bien-être de nos animaux (suivi, contact, documents, etc.) en interagissant avec un backend via des API. Projet personnel.",
+        "role": "Développeur Fullstack",
+        "goals": [
+            "Concevoir et développer une application front-end ReactJS",
+            "Concevoir et développer une application back-end avec NodeJS et Express",
+            "Créer et récupérer les données des utilisateurs via une API externe"
+        ],
+        "tags": [
+            "ReactJS",
+            "CSS",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "API"
+        ],
+        "link": "https://github.com/mlhotellier/PetConnect"
     }    
 ];

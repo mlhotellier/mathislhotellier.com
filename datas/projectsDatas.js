@@ -239,4 +239,26 @@ const projectsDatas = [
         ],
         "link":"https://github.com/mlhotellier/PokeQuiz"
     },
+    {
+        "id": 11,
+        "name": "petconnect",
+        "title": "PetConnect",
+        "imageHead": "./img/petconnect.webp",
+        "description": "The mission was to create a React application providing all the necessary information for our pets’ well-being (tracking, contacts, documents, etc.) by interacting with a backend via APIs. Personal project.",
+        "role": "Fullstack Developer",
+        "goals": [
+            "Design and develop a ReactJS front-end application",
+            "Design and develop a NodeJS and Express back-end application",
+            "Create and retrieve user data via an external API"
+        ],
+        "tags": [
+            "ReactJS",
+            "CSS",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "API"
+        ],
+        "link": "https://github.com/mlhotellier/PetConnect"
+    }
 ];
